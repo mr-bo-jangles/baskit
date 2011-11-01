@@ -20,7 +20,7 @@ _slogans = [
   'Helping Minecraft admins since 2011.',
   'Wrapping the wrapper.',
   'Open Sourced for your enjoyment. (Open Source responsibly)',
-  'Pythonically awsome!',
+  'Pythonically awesome!',
   'Repository on github!',
   'Less than 550 Lines!',
   'Helps ease Notchian headaches!',
@@ -198,7 +198,7 @@ class Baskit(cmd.Cmd):
   
     def do_console(self, s):
         '''console
-        Opens the Bukkit console  To exit the console type Cntrl+A D
+        Opens the Bukkit console  To exit the console type Ctrl+A D
         '''
         os.system('screen -DRS bukkit_server')
   
@@ -348,9 +348,9 @@ class Baskit(cmd.Cmd):
         '''snapshot [OPTIONS]
         Creates, displays, and manages server snapshots.  A server snapshot
         contains the completely functional state of the bukkit server environment.
-        Snapshots can only be taken when the server is shit down, so please keep
+        Snapshots can only be taken when the server is shut down, so please keep
         this in mind before using.  Snapshots are most useful in making a restore
-        point before an upgrade.  Sapshots do NOT contain map or world data.
+        point before an upgrade.  Snapshots do NOT contain map or world data.
     
         -l (--list)                   Lists the available snapshots.
         -n (--name) [NAME]            Sets the name of the snapshot.  Default is:
